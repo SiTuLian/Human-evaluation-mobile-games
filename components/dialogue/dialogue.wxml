@@ -1,0 +1,6 @@
+<!--components/dialogue/dialogue.wxml-->
+<view class="dialogue">
+  <view  class="view-text">您先看到的是<text class="text" bindtap="onTap" data-text="H">H</text>还是<text class="text" bindtap="onTap" data-text="T">T</text>？</view>
+  <view class="triangle">
+  </view>
+</view>

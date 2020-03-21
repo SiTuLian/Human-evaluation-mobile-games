@@ -1,0 +1,10 @@
+<!--components/specialimg/specialimg.wxml-->
+<view class="view">
+  <image height="100px"
+   mode="heightFix" 
+   src="http://47.115.121.243/public/img/subject1_bg1.png" 
+   class="img {{isPosition_left ? 'position_left' : ''}} {{isLeft ? 'left' : ''}}" 
+   bindload="onLoading" ></image>
+
+ 
+</view>

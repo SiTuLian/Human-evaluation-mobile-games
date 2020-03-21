@@ -1,0 +1,4 @@
+<!--components/fullscreen.wxml-->
+<view class="full">
+  <image src="{{src}}" ></image>
+</view>

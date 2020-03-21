@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/subject1/subject1"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "人力测评手游测试",
+    "navigationBarTextStyle": "black",
+    "pageOrientation": "landscape",
+    "navigationStyle": "custom"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

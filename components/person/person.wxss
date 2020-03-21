@@ -1,0 +1,15 @@
+/* components/person.wxss */
+
+.view{
+  position: absolute;
+  /* top: 40%; */
+
+  /* width: 10%;
+  height: 25%; */
+  /* background: #000; */
+}
+
+.view image{
+  width: 100%;
+  height: 100%;
+}

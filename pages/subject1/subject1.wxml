@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<view class="view zindex1 {{isOpacity1 ? 'opacity' : ''}} {{isDisplay1 ? 'display' : ''}}" >
+  <special-img id="specialimg"
+   bind:movebg="onMoveBg"></special-img>
+
+  <person 
+  time="35" 
+  top="40"
+  width="10"
+  height="25"
+  bind:topage="onToPage1" 
+  id="person1"></person>
+</view>
+
+
+
+<view class="view zindex2 {{isOpacity2 ? 'opacity' : ''}} {{isDisplay2 ? 'display' : ''}}">
+  <full-screen  src="http://47.115.121.243/public/img/subject1_bg2.png"></full-screen>
+
+  <person time="50" id="person2" top="55" 
+  width="18"
+  height="37" 
+  bind:topage="onToPage2"></person>
+</view>
+
+<view class="view zindex3 {{isOpacity3 ? 'opacity' : ''}}">
+  <full-screen  src="http://47.115.121.243/public/img/subject1_bg3.png"></full-screen>
+
+  <view class="image-box {{isBorder?'border':''}} {{isTransition?'transition':''}}" bindtap="onTap">
+    <image src="http://47.115.121.243/public/img/subject1_bg3_pic.png"></image>
+  </view>
+  
+  <dialogue class="{{isDiaDisplay? 'display': ''}}"></dialogue>
+
+  <person time="15" id="person3" top="55"
+  width="18"
+  height="37" 
+  bind:topage="onToPage3"></person>
+</view>

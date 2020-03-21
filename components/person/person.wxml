@@ -1,0 +1,4 @@
+<!--components/person.wxml-->
+<view class="view" style="left: {{left}}%;top: {{top}}%;width: {{width}}%;height: {{height}}%;">
+  <image  src="{{src}}" ></image>
+</view>

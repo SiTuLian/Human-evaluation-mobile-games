@@ -1,0 +1,75 @@
+/**index.wxss**/
+page{
+  height: 100%;
+  width: 100%;
+}
+.view{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: opacity 2s;
+  opacity: 0;
+
+  z-index: 10
+}
+
+.zindex1{
+  z-index: 10
+}
+
+.zindex2{
+  z-index: 5
+}
+
+.zindex3{
+   z-index: 3
+}
+
+.opacity{
+  opacity: 1;
+}
+
+
+
+
+
+
+.display{
+  display: none;
+}
+
+
+.image-box{
+  position: absolute;
+  width: 23%;
+  height: 37%;
+  left: 39%;
+  top: 13%;
+  transition: width 2s, height 2s, left 2s, top 2s;
+  z-index: 2
+}
+
+.transition{
+  width: 36%;
+  height: 57%;
+  left: 13%;
+  top: 18%;
+
+}
+
+/* .transition_dia{
+  opacity: 0;
+  transition: opacity 1s;
+}
+.opacity_1{
+  opacity: 1;
+} */
+
+.border{
+  border: 2px solid rgb(204, 250, 79);
+}
+
+.image-box image{
+  width: 100%;
+  height: 100%;
+}

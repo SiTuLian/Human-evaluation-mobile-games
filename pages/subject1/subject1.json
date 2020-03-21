@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "full-screen": "/components/fullscreen/fullscreen",
+    "person": "/components/person/person",
+    "dialogue": "/components/dialogue/dialogue",
+    "special-img": "/components/specialimg/specialimg"
+  }
+}
